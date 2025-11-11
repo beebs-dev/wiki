@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   cleanUrls: true,
   srcDir: "content",
+  ignoreDeadLinks: true, // REMOVE THIS; ONLY FOR DEMO
 
   title: "Knowledge Base",
   titleTemplate: "knowledge wiki",

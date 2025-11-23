@@ -4,7 +4,7 @@ export default defineConfig({
   cleanUrls: true,
   srcDir: "content",
   base: "/knowledge-base",
-
+  ignoreDeadLinks: false,
   title: "Knowledge Base",
   titleTemplate: "Knowledge Base",
   description: "Beebles Laboratorium Knowledge Base",

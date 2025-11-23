@@ -3,12 +3,11 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   cleanUrls: true,
   srcDir: "content",
-  ignoreDeadLinks: true, // REMOVE THIS; ONLY FOR DEMO
   base: "/knowledge-base",
 
   title: "Knowledge Base",
-  titleTemplate: "knowledge wiki",
-  description: "Sylvan Franklin community knowledge wiki",
+  titleTemplate: "Knowledge Base",
+  description: "Beebles Laboratorium Knowledge Base",
 
   locales: {
     root: {
@@ -34,7 +33,7 @@ export default defineConfig({
       },
       {
         text: "Contribute",
-        link: "https://github.com/0x15BA88FF/knowledge-base/edit/main/CONTRIBUTION.md",
+        link: "https://github.com/beebs.dev/knowledge-base/edit/main/CONTRIBUTION.md",
       },
     ],
 
@@ -45,12 +44,12 @@ export default defineConfig({
     sidebar: [],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/0x15BA88FF/knowledge-base" },
+      { icon: "github", link: "https://github.com/beebs.dev/knowledge-base" },
     ],
 
     editLink: {
       pattern:
-        "https://github.com/0x15BA88FF/knowledge-base/edit/main/content/:path",
+        "https://github.com/beebs.dev/knowledge-base/edit/main/content/:path",
       text: "Edit this page on GitHub",
     },
 

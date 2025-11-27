@@ -2,9 +2,15 @@
   "devDependencies": {
     "vitepress": "^2.0.0-alpha.12"
   },
+  "dependencies": {
+    "fast-glob": "^3.3.2",
+    "gray-matter": "^4.0.3"
+  },
   "scripts": {
     "dev": "vitepress dev",
+    "prebuild": "npm run generate:resources",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "generate:resources": "node scripts/generateResourcesJson.js"
   }
 }

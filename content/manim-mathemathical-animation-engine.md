@@ -6,6 +6,10 @@ link: "https://github.com/3b1b/manim"
 tags:
   - "development"
 createdAt: "2025-11-27T15:41:04.175Z"
+discord_thread_id: "1443627695429779507"
+votes_weekly: 0
+votes_monthly: 0
+votes_all_time: 0
 ---
 
 # Manim (Mathemathical Animation Engine)

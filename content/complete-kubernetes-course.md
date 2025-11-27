@@ -6,6 +6,10 @@ link: "https://www.youtube.com/watch?v=2T86xAtR6Fo"
 tags:
   - "learning"
 createdAt: "2025-11-27T15:41:38.575Z"
+discord_thread_id: "1443627839894196274"
+votes_weekly: 0
+votes_monthly: 0
+votes_all_time: 0
 ---
 
 # Complete Kubernetes Course

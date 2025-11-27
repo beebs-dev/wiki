@@ -6,6 +6,10 @@ link: "https://www.youtube.com/watch?v=dDtZLm7HIJs"
 tags:
   - "learning"
 createdAt: "2025-11-27T15:39:56.060Z"
+discord_thread_id: "1443627407335493724"
+votes_weekly: 0
+votes_monthly: 0
+votes_all_time: 0
 ---
 
 # Functional Parsing

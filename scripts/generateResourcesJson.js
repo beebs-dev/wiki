@@ -4,6 +4,7 @@ const fs = require("fs/promises");
 const path = require("path");
 const fg = require("fast-glob");
 const matter = require("gray-matter");
+const ogs = require("open-graph-scraper");
 
 const ROOT = path.resolve(__dirname, "..");
 const CONTENT_DIR = path.join(ROOT, "content");
@@ -29,9 +30,17 @@ async function generateResourcesJson() {
     const slug = normalizeSlug(file);
     const title = parsed.data.title || slug;
 
+    const { thumb, favicon } = await resolveThumb(parsed.data.link);
+
     entries.push({
       title,
       path: `/${slug}`,
+      category: parsed.data.category || null,
+      author: parsed.data.author || null,
+      createdAt: parsed.data.createdAt || null,
+      link: parsed.data.link || null,
+      thumb,
+      favicon,
       votes_weekly: parsed.data.votes_weekly ?? 0,
       votes_monthly: parsed.data.votes_monthly ?? 0,
       votes_all_time: parsed.data.votes_all_time ?? 0,
@@ -53,6 +62,21 @@ async function generateResourcesJson() {
   await fs.writeFile(OUTPUT_PATH, JSON.stringify(payload, null, 2));
 
   return payload;
+}
+
+async function resolveThumb(link) {
+  if (!link) return { thumb: null, favicon: null };
+
+  const favicon = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(link)}&sz=128`;
+
+  try {
+    const { result } = await ogs({ url: link, timeout: 5000 });
+    const ogImage = Array.isArray(result.ogImage) ? result.ogImage[0] : result.ogImage;
+    const ogUrl = ogImage?.url || result.twitterImage?.url || null;
+    return { thumb: ogUrl, favicon };
+  } catch (error) {
+    return { thumb: null, favicon };
+  }
 }
 
 function normalizeSlug(file) {

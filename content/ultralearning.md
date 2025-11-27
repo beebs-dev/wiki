@@ -6,6 +6,10 @@ link: "https://www.scotthyoung.com/blog/ultralearning/"
 tags:
   - "learning"
 createdAt: "2025-11-27T15:37:44.737Z"
+discord_thread_id: "1443626858527850586"
+votes_weekly: 0
+votes_monthly: 0
+votes_all_time: 0
 ---
 
 # Ultralearning

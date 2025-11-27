@@ -37,7 +37,7 @@ export default defineConfig({
     },
 
     sidebar: [],
-
+    aside: false,
     socialLinks: [
       { icon: "discord", link: "https://beebs.dev/discord" },
       { icon: "github", link: "https://github.com/beebs.dev/wiki" },

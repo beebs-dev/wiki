@@ -4,7 +4,8 @@
   },
   "dependencies": {
     "fast-glob": "^3.3.2",
-    "gray-matter": "^4.0.3"
+    "gray-matter": "^4.0.3",
+    "open-graph-scraper": "^5.2.3"
   },
   "scripts": {
     "dev": "vitepress dev",

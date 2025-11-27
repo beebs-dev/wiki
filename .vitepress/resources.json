@@ -1,88 +1,134 @@
 {
   "__meta": {
-    "generated_at": "2025-11-27T17:10:46.960Z",
-    "count": 10
+    "generated_at": "2025-11-27T18:20:25.552Z",
+    "count": 9
   },
   "items": [
     {
       "title": "A Mathematician’s Lament",
       "path": "/a-mathematician-s-lament",
+      "category": "self",
+      "author": "Paul Lockhart",
+      "createdAt": "2025-11-27T15:42:57.140Z",
+      "link": "https://www.amazon.com/Mathematicians-Lament-School-Fascinating-Imaginative/dp/1934137170",
+      "thumb": null,
+      "favicon": "https://www.google.com/s2/favicons?domain=https%3A%2F%2Fwww.amazon.com%2FMathematicians-Lament-School-Fascinating-Imaginative%2Fdp%2F1934137170&sz=128",
       "votes_weekly": 0,
       "votes_monthly": 0,
       "votes_all_time": 0,
-      "discord_thread_id": null
+      "discord_thread_id": "1443628168383697026"
     },
     {
       "title": "Complete Kubernetes Course",
       "path": "/complete-kubernetes-course",
+      "category": "learning",
+      "author": "DevOps Directive",
+      "createdAt": "2025-11-27T15:41:38.575Z",
+      "link": "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+      "thumb": null,
+      "favicon": "https://www.google.com/s2/favicons?domain=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2T86xAtR6Fo&sz=128",
       "votes_weekly": 0,
       "votes_monthly": 0,
       "votes_all_time": 0,
-      "discord_thread_id": null
-    },
-    {
-      "title": "Example Resource",
-      "path": "/resources/example-resource",
-      "votes_weekly": 0,
-      "votes_monthly": 0,
-      "votes_all_time": 0,
-      "discord_thread_id": "000000000000000000"
+      "discord_thread_id": "1443627839894196274"
     },
     {
       "title": "Functional Parsing",
       "path": "/functional-parsing",
+      "category": "learning",
+      "author": "Computerphile",
+      "createdAt": "2025-11-27T15:39:56.060Z",
+      "link": "https://www.youtube.com/watch?v=dDtZLm7HIJs",
+      "thumb": null,
+      "favicon": "https://www.google.com/s2/favicons?domain=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdDtZLm7HIJs&sz=128",
       "votes_weekly": 0,
       "votes_monthly": 0,
       "votes_all_time": 0,
-      "discord_thread_id": null
+      "discord_thread_id": "1443627407335493724"
     },
     {
       "title": "Generative Deep Learning 2nd Ed",
       "path": "/generative-deep-learning-2nd-ed",
+      "category": "learning",
+      "author": "David Foster",
+      "createdAt": "2025-11-27T15:43:40.502Z",
+      "link": "https://www.oreilly.com/library/view/generative-deep-learning/9781098134174/",
+      "thumb": null,
+      "favicon": "https://www.google.com/s2/favicons?domain=https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgenerative-deep-learning%2F9781098134174%2F&sz=128",
       "votes_weekly": 0,
       "votes_monthly": 0,
       "votes_all_time": 0,
-      "discord_thread_id": null
+      "discord_thread_id": "1443628350361833475"
     },
     {
       "title": "Getting Started with FPGAs",
       "path": "/getting-started-with-fpgas",
-      "votes_weekly": 0,
+      "category": "building",
+      "author": "Russell Merrick",
+      "createdAt": "2025-11-27T14:20:20.147Z",
+      "link": "https://www.oreilly.com/library/view/getting-started-with/9781098163471/",
+      "thumb": null,
+      "favicon": "https://www.google.com/s2/favicons?domain=https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fgetting-started-with%2F9781098163471%2F&sz=128",
+      "votes_weekly": 1,
       "votes_monthly": 0,
-      "votes_all_time": 0,
-      "discord_thread_id": null
+      "votes_all_time": 1,
+      "discord_thread_id": "1443607377629679700"
     },
     {
       "title": "I See What You Mean",
       "path": "/i-see-what-you-mean",
+      "category": "learning",
+      "author": "Peter Alvaro",
+      "createdAt": "2025-11-27T15:44:48.614Z",
+      "link": "https://youtu.be/R2Aa4PivG0g?si=3800Uhzic7xY55dU",
+      "thumb": null,
+      "favicon": "https://www.google.com/s2/favicons?domain=https%3A%2F%2Fyoutu.be%2FR2Aa4PivG0g%3Fsi%3D3800Uhzic7xY55dU&sz=128",
       "votes_weekly": 0,
       "votes_monthly": 0,
       "votes_all_time": 0,
-      "discord_thread_id": null
+      "discord_thread_id": "1443628637009215618"
     },
     {
       "title": "Manim (Mathemathical Animation Engine)",
       "path": "/manim-mathemathical-animation-engine",
+      "category": "development",
+      "author": "3blue1brown",
+      "createdAt": "2025-11-27T15:41:04.175Z",
+      "link": "https://github.com/3b1b/manim",
+      "thumb": null,
+      "favicon": "https://www.google.com/s2/favicons?domain=https%3A%2F%2Fgithub.com%2F3b1b%2Fmanim&sz=128",
       "votes_weekly": 0,
       "votes_monthly": 0,
       "votes_all_time": 0,
-      "discord_thread_id": null
+      "discord_thread_id": "1443627695429779507"
     },
     {
       "title": "Neural Networks Playlist",
       "path": "/neural-networks-playlist",
+      "category": "learning",
+      "author": "3blue1brown",
+      "createdAt": "2025-11-27T15:38:26.054Z",
+      "link": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "thumb": null,
+      "favicon": "https://www.google.com/s2/favicons?domain=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&sz=128",
       "votes_weekly": 0,
       "votes_monthly": 0,
       "votes_all_time": 0,
-      "discord_thread_id": null
+      "discord_thread_id": "1443627032474030091"
     },
     {
       "title": "Ultralearning",
       "path": "/ultralearning",
+      "category": "learning",
+      "author": "Scott H. Young",
+      "createdAt": "2025-11-27T15:37:44.737Z",
+      "link": "https://www.scotthyoung.com/blog/ultralearning/",
+      "thumb": null,
+      "favicon": "https://www.google.com/s2/favicons?domain=https%3A%2F%2Fwww.scotthyoung.com%2Fblog%2Fultralearning%2F&sz=128",
       "votes_weekly": 0,
       "votes_monthly": 0,
       "votes_all_time": 0,
-      "discord_thread_id": null
+      "discord_thread_id": "1443626858527850586"
     }
   ]
 }

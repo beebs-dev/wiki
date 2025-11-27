@@ -6,6 +6,10 @@ link: "https://www.amazon.com/Mathematicians-Lament-School-Fascinating-Imaginati
 tags:
   - "self"
 createdAt: "2025-11-27T15:42:57.140Z"
+discord_thread_id: "1443628168383697026"
+votes_weekly: 0
+votes_monthly: 0
+votes_all_time: 0
 ---
 
 # A Mathematician’s Lament

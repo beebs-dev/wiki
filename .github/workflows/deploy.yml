@@ -1,4 +1,4 @@
-name: Deploy knnowledge base to Pages
+name: Deploy Wiki to Pages
 
 on:
   push:

@@ -59,12 +59,10 @@ const CATEGORY_LABELS: Record<string, string> = {
 
 const EXCLUDE = new Set(["/", "/index", "/categories", "/authors"]);
 
-const pages = Object.values(
-  import.meta.glob("./*.md", { eager: true })
-)
-  .map((mod: any) => {
-    const fm = mod.frontmatter || {};
-    const url: string = mod.url || "/";
+const pages = Object.entries(import.meta.glob("./*.md", { eager: true }))
+  .map(([path, mod]) => {
+    const fm = (mod as any).frontmatter || {};
+    const url = path === "./index.md" ? "/" : path.replace(/^\.\//, "/").replace(/\.md$/, "");
     return {
       title: fm.title || "Untitled",
       category: fm.category || "misc",

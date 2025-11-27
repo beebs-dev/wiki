@@ -23,14 +23,8 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: "Home", link: "/" },
-      {
-        text: "Index",
-        items: [
-          { text: "index", link: "/wiki" },
-          { text: "Tags", link: "/wiki/tags" },
-        ],
-      },
+      { text: "Index", link: "/" },
+      { text: "Tags", link: "/tags" },
       {
         text: "Contribute",
         link: "https://github.com/beebs.dev/knowledge-base/edit/main/CONTRIBUTION.md",

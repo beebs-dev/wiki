@@ -24,10 +24,11 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "Index", link: "/" },
-      { text: "Tags", link: "/tags" },
+      { text: "Categories", link: "/categories" },
+      { text: "Authors", link: "/authors" },
       {
-        text: "Contribute",
-        link: "https://github.com/beebs.dev/knowledge-base/edit/main/CONTRIBUTION.md",
+        text: "Submit via Discord",
+        link: "https://beebs.dev/discord",
       },
     ],
 
@@ -38,14 +39,9 @@ export default defineConfig({
     sidebar: [],
 
     socialLinks: [
+      { icon: "discord", link: "https://beebs.dev/discord" },
       { icon: "github", link: "https://github.com/beebs.dev/knowledge-base" },
     ],
-
-    editLink: {
-      pattern:
-        "https://github.com/beebs.dev/knowledge-base/edit/main/content/:path",
-      text: "Edit this page on GitHub",
-    },
 
     footer: {
       message: "Released under the MIT License.",
